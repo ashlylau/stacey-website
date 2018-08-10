@@ -2,93 +2,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>stacey yip | contact</title>
+    <title>stacey yip</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mystylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </head>
 
   <body>
     <div class="website-name">
       <h1 class="text-center"><a href="index.html">stacey <span class="text-muted">yip</span></a></h1>
       <ul class="list-inline text-center">
+        <li><a href="index.html">portfolio</a></li>
         <li><a href="about.html">about</a></li>
-        <li class="current">contact</li>
+        <li class="current"><a href="contact.html">contact</a></li>
       </ul>
     </div>
 
-    <div class="contact text-center">
-      <h1>contact</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <div id="contact" class="page-content">
+      <img src="./img/contact.jpg" alt="" class="img-responsive image-box">
+      <h1 class="text-center">Contact</h1>
+      <p class="text-center">stacey.yip@gmail.com</p>
+    </div>
+
+    <div class="about-content contact-content">
+      <form class="" action="action_page.php" method="post">
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder="Name *" required>
+
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Email *" required>
+
+        <label for="subject"></label>
+        <input type="text" id="subject" name="subject" placeholder="Subject">
+
+        <label for="message"></label>
+        <input type="text" id="message" name="message" placeholder="Message" style="height:200px">
+
+        <input type="submit" value="Send">
+      </form>
     </div>
 
 
-    <div class="container center">
-      <div class="moreworks text-center">
-        <h1>more works</h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-2 col-sm-4 col-xs-6 top-buffer">
-          <a href="image.html"><img src="./img/balletshoe-sleeve.jpg" class="img-responsive"></a>
-        </div>
-        <div class="col-lg-2 col-sm-4 col-xs-6 top-buffer">
-          <a href="image.html"><img src="./img/balletshoe-sleeve.jpg" class="img-responsive"></a>
-        </div>
-        <div class="col-lg-2 col-sm-4 col-xs-6 top-buffer">
-          <a href="image.html"><img src="./img/balletshoe-sleeve.jpg" class="img-responsive"></a>
-        </div>
-        <div class="col-lg-2 col-sm-4 col-xs-6 top-buffer">
-          <a href="image.html"><img src="./img/balletshoe-sleeve.jpg" class="img-responsive"></a>
-        </div>
-        <div class="col-lg-2 col-sm-4 col-xs-6 top-buffer">
-          <a href="image.html"><img src="./img/balletshoe-sleeve.jpg" class="img-responsive"></a>
-        </div>
-        <div class="col-lg-2 col-sm-4 col-xs-6 top-buffer">
-          <a href="image.html"><img src="./img/balletshoe-sleeve.jpg" class="img-responsive"></a>
-        </div>
-
-        <!-- <div class="col-lg-4 col-sm-6 col-xs-12 top-buffer">
-          <img src="./img/overview-2.jpg" class="img-responsive">
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 top-buffer">
-          <img src="./img/screenshot.png" class="img-responsive">
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 top-buffer">
-          <img src="./img/screenshot.png" class="img-responsive">
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 top-buffer">
-          <img src="./img/ring-4.jpg" class="img-responsive">
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 top-buffer">
-          <img src="./img/scanbinet-03.jpg" class="img-responsive">
-        </div> -->
-      </div>
-    </div>
-
-
-    <!-- <div class="grid-container">
-      <div class="grid-item">
-        <img src="./img/balletshoe-sleeve.jpg" class="img-responsive">
-      </div>
-      <div class="grid-item">
-        <img src="./img/overview-2.jpg" class="img-responsive">
-      </div>
-      <div class="grid-item">
-        <img src="./img/ring-4.jpg" class="img-responsive">
-      </div>
-      <div class="grid-item">
-        <img src="./img/scanbinet-03.jpg" class="img-responsive">
-      </div>
-      <div class="grid-item">
-        <img src="./img/screenshot.png" class="img-responsive">
-      </div>
-      <div class="grid-item">
-        <img src="./img/screenshot-2.png" class="img-responsive">
-      </div>
-    </div> -->
-
+    <footer class="text-center">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook-f"></i>
+    </footer>
 
   </body>
 </html>
